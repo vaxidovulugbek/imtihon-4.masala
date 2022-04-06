@@ -19,16 +19,26 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #fff ;
+  background-color: #000 ;
   border-radius: 4px;
   margin-bottom: 20px;
+  color: #fff;
+}
+.blue {
+  background-color: #fff !important;
 }
 #input {
   width: 80%;
   padding: 5px 10px;
   border: none;
   outline: none;
+  background-color: transparent;
+  color: #fff;
 }
+.dark {
+  color: #000 !important;
+}
+
 #list {
   width: 100%;
   padding: 10px;

@@ -100,7 +100,21 @@ let eye = document.querySelector("#eye")
 let list = document.querySelector("#list")
 let elNumber = document.querySelector("#Number")
 let btnnum = document.querySelector("#btnnum")
+let form = document.querySelector("#form")
 
+let numm = 1
+eye.addEventListener("click" ,(e) => {
+  e.preventDefault()
+  if (numm % 2 ==0 ) {
+    form.classList.add("blue")
+    input.classList.add("dark")
+  }
+  else if (numm % 2 != 0 ) {
+    form.classList.remove("blue")
+    input.classList.remove("dark")
+  }
+  numm++
+})
 
 input.addEventListener("keyup" ,(e) => {
   e.preventDefault()
