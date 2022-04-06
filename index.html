@@ -6,14 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>imtihon-4 masala</title>
   <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
   <div class="content">
-    <ul id="list">
-      <li>
-        <input id="input" type="text">
-      </li>
-    </ul>
+    <form id="form"> 
+      <button>P</button>
+      <input id="input" type="text" placeholder="Password">
+      <button id="eye">eye</button>
+    </form>
+      <ul id="list" class="list">
+        <li><button class="btnx">x</button><span id="Upper" class="upper">Upper case</span></li>
+        <li><button id="btnxspetial" class="btnx">x</button><span id="Spetial" class="upper">Spetial character</span></li>
+        <li><button id="btnnum"  class="btnx">x</button><span id="Number" class="upper">Number</span></li>
+        <li><button class="btnx">x</button><span id="More" class="upper">More than 8 character</span></li>
+      </ul>
   </div>
   <script src="main.js"></script>
 </body>
